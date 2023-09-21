@@ -1,0 +1,146 @@
+h1{
+  text-align: center;
+  color:#ff6699 ;
+   font: italic bold 80px/80px Georgia, serif;
+   text-decoration-line: underline;
+   text-decoration-color: #7d9190;
+   text-decoration-style: ;
+   text-underline-thickness: 1px;
+}
+h2{
+	text-align: center;
+	color: #f59542;
+	font-family: cursive;
+	font-size: 30px;
+	margin-top: -25px;
+}
+h3{
+	text-align: left;
+	color: #ff6699;
+	font: italic bold 40px/40px Georgia, serif;
+	margin-left: 10px;
+}
+h4{
+	text-align: left;
+	color: #ff6699;
+	font: italic bold 40px/40px Georgia, serif;
+	margin-left: 10px;
+  margin-top: -2px;
+
+}
+h5{
+  font-family: cursive;
+  color: #9966ff;
+  font-size: 40px;
+
+}
+h6{
+	font-family: cursive;
+  color: #9966ff;
+  font-size: 40px;
+  margin-top: 150px;
+}
+p{
+	color: skyblue;
+	margin-top: -25px;
+	margin-left: 10px;
+}
+#para1{
+	font-size: 25px;
+  padding-left: 400px;
+  padding-right: 200px;
+  font-family: cursive;
+  color: #9966ff;
+  margin-top: -300px;
+}
+
+#img1 {
+  border-radius: 50%;
+   border: 5px solid #ffffff;
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+#img2 {
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+
+}
+#img3 {
+  border-radius: 50%;
+  border: 5px solid #ffffff
+
+}
+#img4 {
+  border-radius: 50%;
+  border: 5px solid #ffffff
+}
+#img5 {
+  border-radius: 50%;
+  border: 5px solid #ffffff
+}
+#para0{
+   font-size: 25px;
+  padding-left: 400px;
+  padding-right: 275px;
+  font-family: cursive;
+  color: #33ffff;
+  margin-top: -50px;
+}
+#para2{
+   font-size: 25px;
+  padding-left: 400px;
+  padding-right: 275px;
+  font-family: cursive;
+  color: #33ffff;
+  margin-top: -300px;
+}
+#para3 {
+  font-size: 25px;
+  padding-left: 400px;
+  padding-right: 275px;
+  font-family: cursive;
+  color: #9966ff;
+  margin-top: -300px;
+ }
+ #para4 {
+  font-size: 25px;
+  padding-left: 400px;
+  padding-right: 275px;
+  font-family: cursive;
+  color: #33ffff;
+  margin-top: -300px;
+ }
+ #para5 {
+  font-size: 25px;
+  padding-left: 400px;
+  padding-right: 275px;
+  font-family: cursive;
+  color: #9966ff;
+  margin-top: -300px;
+ }
+
+body {
+  background-image: url("Back.webp");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial,Helvetica; 
+  font-size: 25px;
+  color:#a8327f;
+}
